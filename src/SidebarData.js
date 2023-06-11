@@ -14,12 +14,17 @@ export const SidebarData = [
     cName: "sidebar-item",
     icon: <FaIcons.FaCartPlus />,
     path: "/products",
-  },
-  {
-    id: 3,
-    title: "Contact Us",
-    cName: "sidebar-item",
-    icon: <FaIcons.FaEnvelopeOpenText />,
-    path: "/contact",
-  },
+    dropdown: [
+      {
+        id: 4,
+        title: "Product 1",
+        path: "/products/product1"
+      },
+      {
+        id: 5,
+        title: "Product 2",
+        path: "/products/product2"
+      }
+    ]
+  }
 ];
